@@ -1,6 +1,6 @@
 const alfy = require('alfy');
 const query = alfy.input;
-const dataURL = `https://gist.githubusercontent.com/sasikanth513/8d0f73fbc9e312281a1795e0ea2cccbb/raw/2494834cef27223dc138b4ffc6ce04a885474923/meteor-packages.json`;
+const dataURL = `https://raw.githubusercontent.com/sasikanth513/alfred-meteor-packages/master/data.json`;
 
 const atmoshphereURL = name => `https://atmospherejs.com/?q=${encodeURIComponent(name)}`
 
