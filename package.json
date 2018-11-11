@@ -1,0 +1,21 @@
+{
+  "name": "alfred-meteor-packages",
+  "version": "0.0.1",
+  "description": "Search meteor packages in alfred",
+  "main": "src/index.js",
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "author": {
+    "name": "Sasikanth Dronavalli",
+    "email": "sasi.kanth80@gmail.com",
+    "url": "sasi.io"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "alfy": "^0.8.0",
+    "ddp": "^0.12.1",
+    "fs": "0.0.1-security"
+  }
+}
